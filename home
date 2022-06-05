@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="須田のプログラミング道場">
+  <title>Mine</title>
+  <link rel="icon" href="img/favicon.png">
+  <link rel="stylesheet" href="css/styl.css">
+</head>
+
+<body>
+  <header>
+  <img src="img/hederr.png"
+         alt="header"
+         width="170"
+         height="120">
+ <nav>
+  <a href="My.html"target="_blank">私という人</a>
+  <a href="best.html"target="_blank">目標</a>
+  <a href="words.html"target="_blank">言葉</a>
+  <a href="https://developer.mozilla.org/ja/docs/Web"target="_blank">MDN</a>      
+ </nav>
+
+<h1 class="top">
+  Happiness requires struggle.<br>  
+   - 幸せになるには努力が必要だ
+</h1>
+
+  </header>
+<div class="menu">  
+  <ul>
+    <h2>プログラミングにおける基礎用語</h2>
+    <li><a href="ITword.html">基礎用語</a></li>
+ 
+    <h2>HTMLの全て</h2>
+    <li><a href="HTML.html">HTML</a></li>
+      
+    <h2>CSSの全て</h2>
+    <li><a href="CSS.html">CSS</a></li>
+
+    <h2>難しすぎてやる気がなくなるJS</h2>
+    <li><a href="JavaScript.html">Java Script</a></li>
+
+    <h2>楽しいけど導入するまでに時間がかかるPHP</h2>
+    <li><a href="PHP.html">PHP</a></li>
+  </ul>
+</div> 
+  
+  <footer>
+    <small>(c) Ksuda.com </small>
+  </footer>
+</body>
+</html>
