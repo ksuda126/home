@@ -11,41 +11,34 @@
 
 <body>
   <header>
-  <img src="img/hederr.png"
-         alt="header"
-         width="170"
-         height="120">
- <nav>
-  <a href="My.html"target="_blank">私という人</a>
-  <a href="best.html"target="_blank">目標</a>
-  <a href="words.html"target="_blank">言葉</a>
-  <a href="https://developer.mozilla.org/ja/docs/Web"target="_blank">MDN</a>      
- </nav>
 
 <h1 class="top">
-  Happiness requires struggle.<br>  
-   - 幸せになるには努力が必要だ
-</h1>
+  Happiness requires struggle. 
+</h1> 
+<nav>
+  <a href="My.html"target="_blank"class="navbtn">MY</a>
+  <a href="best.html"target="_blank"class="navbtn">BEST</a>
+  <a href="https://developer.mozilla.org/ja/docs/Web"target="_blank"class="navbtn">MDN</a>
+</nav>
 
+<h2 class="tops">
+  We bring you the best future.
+  For your best future.<br>
+  Please leave everything to us.Thank you!
+</h2>
   </header>
-<div class="menu">  
-  <ul>
-    <h2>プログラミングにおける基礎用語</h2>
-    <li><a href="ITword.html">基礎用語</a></li>
- 
-    <h2>HTMLの全て</h2>
-    <li><a href="HTML.html">HTML</a></li>
-      
-    <h2>CSSの全て</h2>
-    <li><a href="CSS.html">CSS</a></li>
-
-    <h2>難しすぎてやる気がなくなるJS</h2>
-    <li><a href="JavaScript.html">Java Script</a></li>
-
-    <h2>楽しいけど導入するまでに時間がかかるPHP</h2>
-    <li><a href="PHP.html">PHP</a></li>
-  </ul>
-</div> 
+  <div class="mein">
+    <h2>Programming</h2>
+    <a href="ITword.html" class="btn">click</a>
+    <h2>HTML</h2>
+    <a href="HTML.html"class="btn">click</a>
+    <h2>CSS</h2>
+    <a href="CSS.html"class="btn">click</a>
+    <h2>JavaScript</h2>
+    <a href="JavaScript.html"class="btn">click</a>
+    <h2>PHP</h2>
+    <a href="PHP.html"class="btn">click</a>
+  </div>
   
   <footer>
     <small>(c) Ksuda.com </small>
